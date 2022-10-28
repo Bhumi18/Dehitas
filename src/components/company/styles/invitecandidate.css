@@ -1,0 +1,267 @@
+.invitecandidate-main {
+  padding-top: 80px;
+}
+
+.invticandidate-header {
+  height: 100%;
+  width: 100%;
+  max-width: 1024px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+.upload-image {
+  width: 5vw;
+  margin-left: 20%;
+}
+
+.uploadfile-icon {
+  width: 50px;
+  height: 100px;
+  display: flex;
+}
+.invitecandidate-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+#file-span {
+  margin-left: 42%;
+  color: #ff6150;
+}
+.uploadfile-icon {
+  margin-left: 45%;
+  fill: aqua;
+}
+.invitecandidate-information {
+  margin-top: 10px;
+  /* margin-left: 8%; */
+  width: 55%;
+  /* display: flex;
+  flex-direction: row; */
+}
+.invitecandidate-fileupload {
+  margin-left: 30%;
+}
+.invitecandidate-user-icon {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.candidate-username {
+  margin-left: 5px;
+  padding: 10px;
+}
+.invitecandidate-years-qualification {
+  display: flex;
+  /* margin-left: 43px; */
+}
+/* .candidate-qualification {
+  margin-left: 5em;
+} */
+.candidate-description {
+  /* margin-left: 3em; */
+  text-align: justify;
+  margin-top: 5%;
+}
+.candidate-qualification {
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: -20px;
+}
+.invitecandidate-button {
+  display: flex;
+
+  /* margin-left: 20em; */
+}
+.invitecandidate-main-form {
+  /* background-color: aliceblue; */
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  padding-left: 40px;
+  margin-top: 40px;
+}
+.candidate-year-name {
+  /* margin-left: 5px; */
+  font-weight: 700;
+}
+.candidate-invite-button {
+  background-color: #212855;
+  font-size: medium;
+}
+.candidate-username-all {
+  color: white;
+  background-color: #134e6f;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
+.candidate-year-no {
+  margin-left: 5px;
+}
+
+.candidate-year {
+  display: flex;
+}
+.qualification-name {
+  font-weight: 700;
+  margin-left: 13em;
+}
+.qualification-bech {
+  margin-left: 5px;
+}
+.invitecandidate-main-button {
+  display: flex;
+  margin-left: 10em;
+}
+
+.invitecandidate-button-published {
+  /* margin-left: 25em; */
+  padding: 15px;
+  text-align: center;
+}
+.candidate-button-published {
+  padding: 15px 60px 15px 60px;
+  background-color: #ff6150;
+  font-size: large;
+}
+/* ----------------responsive------------------- */
+
+@media only screen and (max-width: 768px) {
+  .invticandidate-header {
+    height: 100%;
+    width: 100%;
+    max-width: fit-content;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .upload-image {
+    width: 5vw;
+    margin-left: 20%;
+  }
+
+  .uploadfile-icon {
+    width: 50px;
+    height: 100px;
+    display: flex;
+  }
+  .invitecandidate-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+  }
+  #file-span {
+    margin-left: 35%;
+    color: #ff6150;
+  }
+  .uploadfile-icon {
+    margin-left: 45%;
+    fill: aqua;
+  }
+  .invitecandidate-information {
+    margin-top: 10px;
+
+    width: 60%;
+  }
+  .invitecandidate-fileupload {
+    margin-left: 30%;
+  }
+  .invitecandidate-user-icon {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+  }
+  .candidate-username {
+    margin-left: 5px;
+    padding: 10px;
+  }
+  .invitecandidate-years-qualification {
+    display: flex;
+    margin-left: 43px;
+  }
+  .candidate-qualification {
+    margin-left: 5em;
+  }
+  .candidate-description {
+    margin-left: 3em;
+    text-align: justify;
+    margin-top: 5%;
+  }
+  .candidate-qualification {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: -20px;
+    white-space: nowrap;
+  }
+  .invitecandidate-button {
+    display: flex;
+
+    margin-left: 5em;
+  }
+  .invitecandidate-main-form {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 5px #eff0ee;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  .candidate-year-name {
+    margin-left: 5px;
+    font-weight: 700;
+  }
+  .candidate-invite-button {
+    background-color: #212855;
+    font-size: medium;
+  }
+  .candidate-username-all {
+    color: white;
+    background-color: #134e6f;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+  }
+  .candidate-year-no {
+    margin-left: 5px;
+  }
+
+  .candidate-year {
+    display: flex;
+  }
+  .qualification-name {
+    font-weight: 700;
+    margin-left: 3em;
+  }
+  .qualification-bech {
+    margin-left: 5px;
+  }
+  .invitecandidate-main-button {
+    display: contents;
+    margin-left: 10em;
+  }
+
+  .invitecandidate-button-published {
+    text-align: center;
+    padding: 15px;
+  }
+  .candidate-button-published {
+    padding: 15px 60px 15px 60px;
+    background-color: #ff6150;
+    font-size: large;
+  }
+}

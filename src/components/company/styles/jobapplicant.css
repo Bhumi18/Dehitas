@@ -1,0 +1,257 @@
+.jobapplicant-username {
+  margin-left: 5px;
+  padding: 10px;
+  background-color: #134e6f;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+.applicant-username-block {
+  color: white;
+}
+.jobapplicant-main-content1 {
+  width: 100%;
+  /* padding: 50px; */
+  margin: 0 auto;
+  max-width: 1024px;
+  padding-top: 80px;
+}
+.jobapplicant-user-icon {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+.jobapplicant-years-qualification {
+  display: flex;
+  font-family: "Open Sans";
+  /* margin-left: 43px; */
+}
+
+.jobapplicant-qualification {
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* margin-top: -20px; */
+}
+.jobapplicant-year {
+  display: flex;
+}
+.jobapplicant-year-name {
+  font-weight: 700;
+}
+.jobapplicant-year-no {
+  margin-left: 5px;
+}
+.jobapplicant-name {
+  font-weight: 700;
+  margin-left: 11em;
+}
+.jobapplicant-name-section2 {
+  font-weight: 700;
+  margin-left: 18em;
+}
+.jobapplicant-bech {
+  margin-left: 5px;
+}
+.jobapplicant-description {
+  /* margin-left: 3em; */
+  text-align: justify;
+  margin-top: 5%;
+  font-family: "Open Sans";
+}
+.jobapplicant-description-section2 {
+  text-align: justify;
+  margin-top: 5%;
+  width: 60%;
+  font-family: "Open Sans";
+}
+
+.jobapplicant-information {
+  margin-top: 10px;
+  /* width: 55%; */
+  margin-bottom: 40px;
+}
+.jobapplicant-main-button {
+  display: flex;
+  margin-left: 8em;
+}
+.jobapplicant-headername {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.jobapplicant-main-form {
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  max-width: 1024px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 5%;
+}
+.jobapplicant-invite-button2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #ff6150;
+  font-size: medium;
+}
+.jobapplicant-invite-button1 {
+  margin-top: 10px;
+  background-color: #282155;
+  font-size: medium;
+}
+​ .myjobpost-information-header {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+}
+.jobapplicant-title1 {
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.jobapplicant-title2 {
+  text-align: center;
+  margin-top: 5%;
+}
+.jobapplicant-approved-button01 {
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: gray;
+}
+.jobapplicant-front-buttons {
+  display: flex;
+  font-family: "Open Sans";
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: auto; */
+  width: 80%;
+  max-width: 1024px;
+  padding-top: 50px;
+}
+/* -------------------for responsive------------------------ */
+@media only screen and (max-width: 768px) {
+  .jobapplicant-username {
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #134e6f;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  .applicant-username-block {
+    color: white;
+  }
+  .jobapplicant-user-icon {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+  }
+  .jobapplicant-years-qualification {
+    display: flex;
+    /* margin-left: 43px; */
+  }
+  .jobapplicant-qualification {
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -10px;
+  }
+  .jobapplicant-year {
+    display: none;
+  }
+  .jobapplicant-year-name {
+    font-weight: 700;
+  }
+  .jobapplicant-year-no {
+    margin-left: 5px;
+  }
+  .jobapplicant-name {
+    font-weight: 700;
+    margin-left: 1em;
+    display: none;
+  }
+  .jobapplicant-bech {
+    margin-left: 5px;
+    display: none;
+  }
+  .jobapplicant-description {
+    margin-left: 2em;
+    text-align: justify;
+  }
+  ​ .jobapplicant-information {
+    margin-bottom: 40px;
+  }
+  .jobapplicant-main-button {
+    display: flex;
+    margin-left: 22em;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .jobapplicant-headername {
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .jobapplicant-main-form {
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 5px #eff0ee;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: 100%;
+    width: 100%;
+    max-width: 1024px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 5%;
+  }
+  .jobapplicant-invite-button2 {
+    margin-left: 20px;
+    margin-top: 1px;
+    background-color: #ff6150;
+    font-size: medium;
+    padding: 8px;
+  }
+  .jobapplicant-invite-button1 {
+    margin-top: 1px;
+    background-color: #282155;
+    font-size: medium;
+    padding: 8px;
+  }
+  ​ .myjobpost-information-header {
+    display: flex;
+    align-items: center;
+    /* margin-top: 2%; */
+  }
+  .jobapplicant-title1 {
+    margin-left: 20%;
+    font-weight: 700;
+  }
+  .jobapplicant-title2 {
+    text-align: center;
+    margin-top: 5%;
+  }
+  .jobapplicant-approved-button01 {
+    margin-top: 5px;
+    margin-left: 50px;
+    background-color: gray;
+    padding: 8px;
+  }
+  .jobapplicant-main-content1 {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}

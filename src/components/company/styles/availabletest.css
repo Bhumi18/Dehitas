@@ -1,0 +1,250 @@
+.availabletest-main-content {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  padding-top: 110px;
+  margin: 0 auto;
+  /* margin-top: 2%; */
+}
+.availabletest-creator-cost-button {
+  background-color: #282155;
+  font-size: medium;
+}
+.availabletest-creator-block {
+  background-color: #134e6f;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+.availabletest-main-information {
+  margin-top: 2%;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 5%;
+  max-width: 1024px;
+}
+.avilabletest-front-buttons {
+  display: flex;
+  font-family: "Open Sans";
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  max-width: 1024px;
+  padding-top: 50px;
+}
+.availabletest-description {
+  text-align: justify;
+  font-family: "Open Sans";
+
+  margin-bottom: 40px;
+}
+.availabletest-user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.available-creator-name {
+  white-space: nowrap;
+  margin: 10px;
+}
+.availabletest-usetest-button {
+  white-space: nowrap;
+  margin-left: 5em;
+}
+.purchased-name {
+  border-right: 1px solid black;
+  padding: 10px;
+}
+.created-name {
+  padding: 10px;
+}
+
+.pc-tab-button {
+  background-color: #282155;
+  color: white;
+}
+
+.availabletest-title {
+  /* margin-left: 50px; */
+  margin-top: 10px;
+}
+.availabletest-main-title {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+.availabletest-description-to-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.available-information {
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  /* padding-bottom: 10px; */
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+.variable-cost-name {
+  font-weight: 700;
+}
+.availabletest-variable-cost {
+  display: flex;
+  /* margin-left: 24em; */
+  margin-right: 28em;
+  font-family: "Open Sans";
+
+  align-items: center;
+  justify-content: flex-end;
+}
+.availabletest-submit {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+.jobinsight-select-date {
+  margin-left: 10px;
+}
+.jobinsight-select-date-input {
+  border: 1px solid black;
+}
+.availabletest-save-button {
+  /* padding: 10px; */
+  padding: 15px 60px 15px 60px;
+  background-color: #ff6150;
+  font-size: larger;
+}
+.A3section-merge {
+  display: flex;
+}
+.availabletest-description-created {
+  text-align: justify;
+  font-family: "Open Sans";
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .availabletest-main-content {
+    height: 100%;
+    width: 100%;
+
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .availabletest-creator-cost-button {
+    background-color: #282155;
+    font-size: medium;
+  }
+  .availabletest-creator-block {
+    background-color: #134e6f;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+  }
+  .availabletest-main-information {
+    margin-top: 2%;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 5%;
+    max-width: 1024px;
+  }
+  .avilabletest-front-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    max-width: 1024px;
+  }
+  .availabletest-description {
+    /* margin-left: 3em; */
+    text-align: justify;
+    /* margin-top: 5%; */
+    /* width: 60%; */
+    margin-bottom: 40px;
+  }
+  .availabletest-user-icon {
+    display: flex;
+    align-items: center;
+
+    flex-direction: row;
+    margin-right: 15em;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+  }
+  .available-creator-name {
+    white-space: nowrap;
+  }
+  .availabletest-usetest-button {
+    white-space: nowrap;
+    margin-left: 5em;
+  }
+  .purchased-name {
+    border-right: 1px solid black;
+    padding: 10px;
+  }
+  .created-name {
+    padding: 10px;
+  }
+
+  .pc-tab-button {
+    background-color: #282155;
+    color: white;
+  }
+
+  .availabletest-title {
+    /* margin-left: 50px; */
+    margin-top: 10px;
+  }
+  .availabletest-main-title {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+  }
+  .availabletest-description-to-button {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .available-information {
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 5px #eff0ee;
+    /* padding-bottom: 10px; */
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+  .variable-cost-name {
+    font-weight: 700;
+  }
+  .availabletest-variable-cost {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .availabletest-submit {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .jobinsight-select-date {
+    margin-left: 10px;
+  }
+  .jobinsight-select-date-input {
+    border: 1px solid black;
+  }
+  .availabletest-save-button {
+    /* padding: 10px; */
+    padding: 15px 60px 15px 60px;
+    background-color: #ff6150;
+    font-size: larger;
+  }
+}

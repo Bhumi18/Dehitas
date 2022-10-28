@@ -1,0 +1,18 @@
+.M-Content
+{
+
+    max-width: 786px;
+    margin:0 auto;
+}
+.Myrepo-card
+{
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,24.4rem);
+}
+.card
+{
+    max-height: 250px;
+    width: 100%;
+    background-color: rgb(239, 240, 238);
+  
+}

@@ -1,0 +1,885 @@
+.candidate-jobfeed-header {
+  font-size: x-large;
+  width: 80%;
+  padding-left: 40px;
+  background-color: ghostwhite;
+  padding-top: 20px;
+  margin-top: 2%;
+  display: flex;
+  color: #ff6150;
+  /* font-weight: 600; */
+  margin-left: 1%;
+  font-size: medium;
+  border-bottom: 1px solid gainsboro;
+  font-family: "Montserrat";
+}
+.font-color-orange
+{
+  color:#ff6150
+}
+.candidate-jobfeed-header2 {
+  padding-left: 5%;
+  color: black;
+}
+
+.candidate-jobfeed-outer {
+  margin: 0 auto;
+  border-radius: 10px;
+  border-bottom: 1px solid lightgrey;
+  background: ghostwhite;
+  /* box-shadow: 0px 0px 6px 5px #dddddd; */
+  padding: 20px;
+  height: 30%;
+  width: 80%;
+  margin-left: 1%;
+  /* margin-bottom: 20px; */
+  font-family: "OpenSans";
+}
+
+.candidate-jobfeed-top {
+  display: flex;
+}
+
+.candidate-jobfeed-logo {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.candidate-jobfeed-title {
+  font-family: "Montserrat";
+  font-size: x-large;
+  font-weight: bold;
+  margin: auto 2.5%;
+  /* margin: 2.5%; */
+}
+
+.candidate-jobfeed-middle {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  font-weight: 600;
+  font-family: "Montserrat";
+  justify-content: space-between;
+  /* margin-left: 90px; */
+}
+
+.candidate-jobfeed-companyname {
+  font-size: larger;
+  margin: 10px;
+}
+
+.candidate-jobfeed-location {
+  font-size: larger;
+  margin: 10px;
+}
+
+.candidate-jobfeed-experience {
+  font-size: larger;
+  margin: 10px;
+}
+
+.candidate-jobfeed-basic-des {
+  margin: 10px;
+  /* font-size: 1.2rem; */
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Montserrat";
+}
+
+.candidate-jobfeed-button-more {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: #134e6f;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-size: larger;
+  /* box-shadow: 0px 0px 6px 5px #d3d3d3; */
+}
+
+.candidate-more-top {
+  display: flex;
+  align-items: center;
+}
+
+.candidate-more-logo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.candidate-more-title {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin: 1%;
+}
+
+.candidate-more-middle {
+  /* display: flex; */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  font-weight: 600;
+  justify-content: space-between;
+  /* width: 80%; */
+  /* margin-left: 10%; */
+  font-family: "Open Sans";
+}
+.popup-form {
+  padding: 10px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.popup1 {
+  /* padding: 10px; */
+  /* margin-left: 5%; */
+  /* margin-bottom: 3%; */
+  /* border: 1px solid gainsboro; */
+  width: 80%;
+}
+/* .popup2 {
+  margin-right: 15%;
+} */
+.candidate-more-companyname {
+  font-size: larger;
+  margin: 10px;
+  /* margin-left: 0; */
+}
+
+.candidate-more-location {
+  font-size: larger;
+  margin: 10px;
+  margin-left: 80%;
+}
+
+.candidate-more-experience {
+  font-size: larger;
+  margin: 10px;
+}
+
+.candidate-more-desc {
+  margin: 10px;
+  width: 90%;
+
+  text-align: justify;
+  font-family: "Open Sans";
+  /* margin-left: 8%; */
+}
+
+.candidate-more-skills-tag {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); */
+  align-items: center;
+  /* width: 60%; */
+  margin-left: 5%;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+}
+
+.candidate-more-skills {
+  font-size: large;
+  margin: 15px;
+  background-color: #1ac0c6;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+  /* text-transform: uppercase; */
+  white-space: nowrap;
+  text-align: center;
+}
+
+.candidate-more-btn-size {
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+  /* margin-top: 60%; */
+}
+
+.candidate-more-button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: #ff6150;
+  border: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  border-radius: 5px;
+  font-size: larger;
+  box-shadow: 0px 0px 6px 5px #d3d3d3;
+}
+
+.candidate-jobfeed-button {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: #ff6150;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: larger;
+  /* box-shadow: 0px 0px 6px 5px #d3d3d3; */
+}
+
+.candidate-form-header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Montserrat" !important;
+}
+
+.candidate-form-title {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Montserrat";
+}
+
+.candidate-form-desc {
+  margin: 10px;
+  font-family: "Open Sans";
+  text-align: justify;
+  padding-right: 10%;
+}
+
+.candidate-skills-header {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 3%;
+  font-family: "Montserrat";
+}
+
+.candidate-form-skills {
+  font-size: large;
+  margin: 10px;
+  background-color: #1ac0c6;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.candidate-cover-header {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Montserrat";
+}
+
+.candidate-text-box {
+  height: 100px;
+  width: 50%;
+  margin: 10px;
+  background-color: #eff0ee;
+  border-radius: 10px;
+  border: solid 2px #d3d3d3;
+}
+
+.candidate-form-question {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Montserrat";
+}
+
+.candidate-form-question-box {
+  height: 30px;
+  width: 50%;
+  margin: 10px;
+  background-color: #eff0ee;
+  border-radius: 10px;
+  border: solid 2px #d3d3d3;
+}
+
+.candidate-form-attachment-header {
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+}
+
+.candidate-form-upload-imgdiv {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.candidate-form-upload-img {
+  height: 80px;
+  width: 80px;
+}
+
+.candidate-form-btn {
+  margin: 10px;
+  height: 40px;
+  width: 150px;
+  background-color: #ff6150;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: larger;
+  box-shadow: 0px 0px 6px 5px #d3d3d3;
+}
+.cancel-filter-apply {
+  display: flex;
+  /* border: 1px solid gray; */
+  /* justify-content: space-around; */
+  align-items: center;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: larger;
+}
+.candidate-jobfeed-main-content {
+  padding-top: 100px;
+  position: relative;
+}
+.candidate-jobfeed-main-left {
+  width: 30%;
+  height: 200vh;
+
+  position: fixed;
+  font-family: "Montserrat";
+  float: left;
+
+  padding-left: 10%;
+  padding-top: 7.2%;
+  background-color: #f5f5f5;
+}
+.expriencelevel-candidate {
+  margin-top: 5%;
+}
+.candidate-apply-btn {
+  background-color: #134e6f;
+  margin-left: 27%;
+}
+.ex-level-candidates {
+  font-size: large;
+}
+.expriencelevel-candidate {
+  margin-top: 5%;
+}
+.technology-candidate {
+  margin-top: 5%;
+}
+.jobtype-candidate {
+  margin-top: 5%;
+}
+.candidate-jobfeed-main-content {
+  width: 100%;
+}
+.candidate-jobfeed-main-right {
+  position: relative;
+  width: 70%;
+  height: 200vh;
+  float: right;
+  background-color: #f5f5f5;
+}
+.primaryskill-span {
+  font-family: "Montserrat";
+  font-size: large;
+  margin-left: 6%;
+  font-weight: 600;
+}
+.main-sidebar-popup {
+  display: flex;
+  justify-content: space-between;
+}
+.popup-sidebar {
+  width: 50%;
+  text-align: center;
+  border-left: 1px solid gainsboro;
+  /* padding-top: 3%; */
+}
+.candidate-more-top-sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.candidate-more-logo-sidebar {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.candidate-more-companyname-sidebar {
+  font-size: larger;
+  font-weight: 400;
+  width: 80%;
+  font-family: "Montserrat";
+  margin-left: 10%;
+  border-bottom: 1px solid gainsboro;
+}
+.candidate-more-location-sidebar {
+  font-size: large;
+  font-family: "Open Sans";
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar2-span {
+  font-weight: 700;
+}
+.applicationform-block {
+  margin-left: 15%;
+}
+.candidate-more-btn-size-application {
+  margin-left: 17%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.candidate-form-upload-sharejob {
+  width: 20px;
+  height: 25px;
+  margin: 5px;
+}
+.sharejob-icon {
+  display: flex;
+  justify-content: center;
+}
+.candidate-form-back-img {
+  height: 30px;
+
+  color: #1ac0c6;
+  /* background-color: #1ac0c6; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .candidate-jobfeed-header {
+    font-size: x-large;
+    width: 80%;
+    padding-left: 40px;
+    background-color: ghostwhite;
+    padding-top: 20px;
+    margin-top: 2%;
+    display: flex;
+    color: #ff6150;
+    /* font-weight: 600; */
+    margin-left: 1%;
+    font-size: medium;
+    border-bottom: 1px solid gainsboro;
+    font-family: "Montserrat";
+  }
+  .candidate-jobfeed-header2 {
+    padding-left: 5%;
+    color: black;
+  }
+
+  .candidate-jobfeed-outer {
+    margin: 0 auto;
+    border-radius: 10px;
+    border-bottom: 1px solid lightgrey;
+    background: ghostwhite;
+    /* box-shadow: 0px 0px 6px 5px #dddddd; */
+    padding: 20px;
+    height: 30%;
+    width: 80%;
+    margin-left: 1%;
+    /* margin-bottom: 20px; */
+    font-family: "OpenSans";
+  }
+
+  .candidate-jobfeed-top {
+    display: flex;
+  }
+
+  .candidate-jobfeed-logo {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+
+  .candidate-jobfeed-title {
+    font-family: "Montserrat";
+    font-size: x-large;
+    font-weight: bold;
+    margin: auto 2.5%;
+    /* margin: 2.5%; */
+  }
+
+  .candidate-jobfeed-middle {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    font-weight: 600;
+    font-family: "Montserrat";
+    justify-content: space-between;
+    /* margin-left: 90px; */
+  }
+
+  .candidate-jobfeed-companyname {
+    font-size: larger;
+    margin: 10px;
+  }
+
+  .candidate-jobfeed-location {
+    font-size: larger;
+    margin: 10px;
+  }
+
+  .candidate-jobfeed-experience {
+    font-size: larger;
+    margin: 10px;
+  }
+
+  .candidate-jobfeed-basic-des {
+    margin: 10px;
+    /* font-size: 1.2rem; */
+    font-weight: 500;
+    text-align: justify;
+    font-family: "Montserrat";
+  }
+
+  .candidate-jobfeed-button-more {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #134e6f;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-size: larger;
+    /* box-shadow: 0px 0px 6px 5px #d3d3d3; */
+  }
+
+  .candidate-more-top {
+    display: flex;
+    align-items: center;
+  }
+
+  .candidate-more-logo {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+
+  .candidate-more-title {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin: 1%;
+  }
+
+  .candidate-more-middle {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    font-weight: 600;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 8.8%;
+    font-family: "Open Sans";
+  }
+  .popup-form {
+    /* padding: 20px; */
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .popup1 {
+    padding: 10px;
+    /* margin-left: 5%; */
+    /* margin-bottom: 3%; */
+    /* border: 1px solid gainsboro; */
+    width: 80%;
+  }
+  /* .popup2 {
+    margin-right: 15%;
+  } */
+  .candidate-more-companyname {
+    font-size: larger;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  .candidate-more-location {
+    font-size: larger;
+    margin: 10px;
+    margin-left: 80%;
+  }
+
+  .candidate-more-experience {
+    font-size: larger;
+    margin: 10px;
+  }
+
+  .candidate-more-desc {
+    margin: 10px;
+    width: 90%;
+
+    text-align: justify;
+    font-family: "Open Sans";
+    margin-left: 8%;
+  }
+
+  .candidate-more-skills-tag {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); */
+    align-items: center;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+  }
+
+  .candidate-more-skills {
+    font-size: large;
+    margin: 15px;
+    background-color: #1ac0c6;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .candidate-more-btn-size {
+    width: 90%;
+    margin-top: 5%;
+    text-align: center;
+    /* margin-top: 60%; */
+  }
+
+  .candidate-more-button {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ff6150;
+    border: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+    border-radius: 5px;
+    font-size: larger;
+    box-shadow: 0px 0px 6px 5px #d3d3d3;
+  }
+
+  .candidate-jobfeed-button {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ff6150;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: larger;
+    /* box-shadow: 0px 0px 6px 5px #d3d3d3; */
+  }
+
+  .candidate-form-header {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Montserrat" !important;
+  }
+
+  .candidate-form-title {
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Montserrat";
+  }
+
+  .candidate-form-desc {
+    margin: 10px;
+    font-family: "Open Sans";
+    text-align: justify;
+    padding-right: 10%;
+  }
+
+  .candidate-skills-header {
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 3%;
+    font-family: "Montserrat";
+  }
+
+  .candidate-form-skills {
+    font-size: large;
+    margin: 10px;
+    background-color: #1ac0c6;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 5px;
+  }
+
+  .candidate-cover-header {
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Montserrat";
+  }
+
+  .candidate-text-box {
+    height: 100px;
+    width: 50%;
+    margin: 10px;
+    background-color: #eff0ee;
+    border-radius: 10px;
+    border: solid 2px #d3d3d3;
+  }
+
+  .candidate-form-question {
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Montserrat";
+  }
+
+  .candidate-form-question-box {
+    height: 30px;
+    width: 50%;
+    margin: 10px;
+    background-color: #eff0ee;
+    border-radius: 10px;
+    border: solid 2px #d3d3d3;
+  }
+
+  .candidate-form-attachment-header {
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+  }
+
+  .candidate-form-upload-imgdiv {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .candidate-form-upload-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .candidate-form-btn {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #ff6150;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: larger;
+    box-shadow: 0px 0px 6px 5px #d3d3d3;
+  }
+  .cancel-filter-apply {
+    display: flex;
+    /* border: 1px solid gray; */
+    /* justify-content: space-around; */
+    align-items: center;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: larger;
+  }
+  .candidate-jobfeed-main-content {
+    position: relative;
+  }
+  .expriencelevel-candidate {
+    margin-top: 5%;
+  }
+  .candidate-apply-btn {
+    background-color: #134e6f;
+    margin-left: 27%;
+  }
+  .ex-level-candidates {
+    font-size: large;
+  }
+  .expriencelevel-candidate {
+    margin-top: 5%;
+  }
+  .technology-candidate {
+    margin-top: 5%;
+  }
+  .jobtype-candidate {
+    margin-top: 5%;
+  }
+  .candidate-jobfeed-main-content {
+    width: 100%;
+  }
+  .candidate-jobfeed-main-right {
+    position: relative;
+    width: 70%;
+    height: 500vh;
+    float: right;
+    background-color: #f5f5f5;
+  }
+  .primaryskill-span {
+    font-family: "Montserrat";
+    font-size: large;
+    margin-left: 6%;
+    font-weight: 600;
+  }
+  .main-sidebar-popup {
+    display: flex;
+    justify-content: space-between;
+  }
+  .popup-sidebar {
+    width: 40%;
+    text-align: center;
+    border-left: 1px solid gainsboro;
+    /* padding-top: 3%; */
+  }
+  .candidate-more-top-sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .candidate-more-logo-sidebar {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  .candidate-more-companyname-sidebar {
+    font-size: larger;
+    font-weight: 400;
+    width: 80%;
+    font-family: "Montserrat";
+    margin-left: 10%;
+    border-bottom: 1px solid gainsboro;
+  }
+  .candidate-more-location-sidebar {
+    font-size: large;
+    font-family: "Open Sans";
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar2-span {
+    font-weight: 700;
+  }
+  .applicationform-block {
+    margin-left: 15%;
+  }
+  .candidate-more-btn-size-application {
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .candidate-form-upload-sharejob {
+    width: 20px;
+    height: 25px;
+    margin: 5px;
+  }
+  .sharejob-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .candidate-form-back-img {
+    height: 30px;
+
+    color: #1ac0c6;
+    /* background-color: #1ac0c6; */
+  }
+}

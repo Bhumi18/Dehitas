@@ -1,0 +1,123 @@
+.Add-Enter_Questions {
+  max-width: 786px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.u_profileInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  height: 60px;
+  color: white;
+  letter-spacing: 1.5px;
+  /* background-color: #e3f8f7; */
+}
+.u_welcomeUser {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.u_sideNavDetails {
+  background-color: #262626;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+}
+.Add-type_of_Question {
+  width: 100%;
+  display: block;
+  margin: 0;
+  text-align: left;
+  display: flex;
+}
+.Add-Question-type {
+  margin: 20px;
+  height: 40px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.Add-addgener {
+  
+  border-radius: 10px;
+  width: 70px;
+  margin-right: 20px;
+}
+.Add-add_gener_btn {
+  margin-top: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.Add-AddGenre {
+  height: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Add-fyi-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.Add-fyi {
+  position: relative;
+  background: #edf7f7;
+  display: flex;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  width: 10px;
+  height: 20px;
+  overflow: hidden;
+  line-height: 20px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.Add-fyi:hover {
+  width: 490px;
+  height: 25px;
+}
+.Add-option-selection {
+  display: flex;
+  height: 89%;
+}
+.Add-option1 {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Add-option-field {
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  border: 0.7px solid #000;
+  overflow: auto;
+}
+.Add-submit {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: #ff6150;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.tox-notification--warning {
+  display: none !important;
+}
+/* .img,
+svg,
+video,
+canvas,
+audio,
+embed,
+object {
+  display: none;
+  vertical-align: middle;
+} */

@@ -1,0 +1,97 @@
+img.uploadSVG {
+  width: 32px;
+  margin: auto;
+  /* margin: 20px; */
+}
+.input_type {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100px;
+  position: relative;
+}
+.profile-img-div {
+  padding: 1%;
+  border: 2px dashed #ff6150;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 130px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+
+  padding: 1%;
+}
+.profile-img-div:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+button.rg-reset-img-btn {
+  background-color: #ff6150;
+  padding: 2px 6px;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.cover-img-div {
+  padding: 1%;
+  border: 2px dashed #ff6150;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 256px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+}
+.cover-img-div:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+button.upload-file-btn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #ff6150;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.5rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  max-width: 50%;
+}
+
+button.upload-file-btn:hover,
+button.upload-file-btn:focus {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  opacity: 0.95;
+}
+/* button.f-next-try-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+} */
+
+button.upload-file-btn:hover {
+  transform: translateY(-1px);
+}

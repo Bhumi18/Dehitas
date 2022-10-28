@@ -1,0 +1,57 @@
+/* Demo */
+/* body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#ecf0f1, #fff);
+} */
+/* Animation */
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+span.loading-span {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+span.loading-span-title {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* Variables */
+/* Loading Icon */
+.loading {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading__ring {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.loading__ring:first-child {
+  transform: skew(30deg, 20deg);
+}
+.loading__ring:last-child {
+  transform: skew(-30deg, -20deg) scale(-1, 1);
+}
+.loading__ring:last-child svg {
+  animation-delay: -0.5s;
+  fill: #134e6f;
+}
+.loading__ring svg {
+  animation: rotate 1s linear infinite;
+  fill: #ff6150;
+}
