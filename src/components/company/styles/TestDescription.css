@@ -1,0 +1,160 @@
+.tds-title {
+  display: flex;
+  justify-content: space-around;
+  color: #134e6f;
+  margin-top: 2%;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.tds-main {
+  padding-top: 100px;
+}
+.tds-m-container {
+  display: flex;
+}
+.test-menu {
+  width: 70%;
+  margin-left: 110px;
+}
+.tds-side-bar {
+  width: 30%;
+}
+.tds-outer-heading {
+  font-size: 26px;
+  font-weight: 200;
+}
+.tds-test-title {
+  font-size: 2em;
+  color: #134e6f;
+  border-radius: 10px;
+}
+.tds-username {
+  font-size: 20px;
+
+  margin: 10px 120px 0 151px;
+}
+.avt-user-img {
+  margin: 0 0 0 150px;
+  border-radius: 10%;
+}
+.tds-tbl {
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  margin: 30px 0 0 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+th {
+  background: #1ac0c6;
+  color: #eff0ee;
+}
+.total-tbl {
+  background-color: #1ac0c6;
+  color: #eff0ee;
+}
+th,
+td {
+  /* border: 1px solid #ccc; */
+  padding: 8px;
+  width: 700px;
+  text-align: center;
+}
+
+tr:hover {
+  background: #d1d1d1;
+}
+
+.tds-exl {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.tds-dscr {
+  margin: 50px;
+}
+.sp-bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+.sp-ot {
+  font-size: 20px;
+}
+.tds-exl {
+  margin: 20px 20px;
+}
+
+.des-box {
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  margin: 20px 0 0 0;
+}
+.duration {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin: 90px 0 0 0;
+}
+.rw-items {
+  display: flex;
+  justify-content: space-around;
+
+  column-gap: 3px;
+}
+.sp-mid {
+  font-weight: bold;
+  font-size: 1em;
+}
+.sp-sm {
+  font-size: 1em;
+}
+
+.button-24 {
+  justify-content: center;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+.btn-dv {
+  margin: 2% 45%;
+}
+
+@media only screen and (max-width: 768px) {
+  .button-24 {
+    width: 100%;
+  }
+}

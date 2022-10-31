@@ -1,0 +1,219 @@
+/* -----------recruitment details--------------
+/* .recruitment-main {
+  height: 100vh;
+} */
+
+.recruitment-main {
+  padding-top: 100px;
+}
+.recruitment-header {
+  width: 70vw;
+  max-width: 600px;
+  height: 80%;
+  min-width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 5px #eff0ee;
+  margin-top: 3%;
+  padding: 30px;
+  margin-bottom: 3%;
+  padding-bottom: 30px;
+}
+
+.tag-outer {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#tag-span-job {
+  /* margin: 10px; */
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 73%;
+}
+
+.tag-input-btn {
+  background-color: #282133;
+  color: white;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: -23px;
+  height: 50%;
+  margin-top: 5px;
+}
+
+.recruitment-details-main-form {
+  color: black;
+}
+
+.radio-remote {
+  margin-left: 5px;
+}
+#recruit-label {
+  display: flex;
+  font-family: "Open Sans";
+
+  padding-bottom: 10px;
+}
+#recruitment-details-main-form {
+  padding: 20px;
+}
+.recruit-components {
+  display: flex;
+  margin-bottom: 20px;
+}
+.recruit-location {
+  margin-bottom: 10px;
+}
+.recruit-details {
+  margin: 0 auto;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-left: 10px;
+}
+#question-submit {
+  padding: 5px 10px 5px 10px;
+  margin-left: 5px;
+}
+#number-label {
+  padding: 5px;
+}
+#rectuit-option {
+  padding: 10px 25% 10px 0;
+}
+.button-save {
+  padding: 10px 10% 10px 10%;
+  margin: 5%;
+}
+#job-title {
+  padding: 10px;
+  padding-left: 5rem;
+  border-color: black;
+}
+#question {
+  padding: 10px 15% 10px 0;
+}
+.dropdown-container {
+  width: 100%;
+}
+.plus-icon {
+  display: flex;
+}
+.recruit-submit {
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+#job-radio {
+  /* margin-left: 10%; */
+  width: 50%;
+}
+/* .ex-level-select {
+  width: 60%;
+} */
+#submit-job {
+  display: inline;
+  margin-left: 10px;
+  background-color: #282133;
+  font-size: medium;
+}
+#jobquestion-inputfield {
+  margin-left: 10px;
+}
+.recruit-save-continue-button {
+  background-color: #ff6150;
+  font-size: larger;
+}
+.jobdescription-textarea {
+  border-color: #282133;
+}
+.all-inputfield {
+  width: 75%;
+}
+/* input[type="radio"].radio-location:checked:after {
+  width: 11px;
+  height: 12px;
+  border-radius: 10px;
+  background-color: #134e6f;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+} */
+.recruit-components-question {
+  margin-bottom: 20px;
+}
+.grid-recruitdetails {
+  /* display: grid; */
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  /* width: auto; */
+  /* margin-left: 30px; */
+}
+
+.img-input-submit-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+/* --------------For Responsive------------------------ */
+@media only screen and (max-width: 768px) {
+  .recruit-details {
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+  .recruitment-content {
+    padding-right: 0px;
+  }
+  .img-input-submit-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .all-inputfield {
+    width: 95%;
+  }
+  .plus-icon {
+    display: flex;
+  }
+  .recruitment-header {
+    max-width: 600px;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 10%;
+  }
+  input[type="radio"].radio-location:checked:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: #134e6f;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+  }
+  #recruit-label {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+
+  .recruit-submit {
+    margin-left: 20%;
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  .grid-recruitdetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 70%;
+    margin-left: 20px;
+  }
+  .recruit-components {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+}

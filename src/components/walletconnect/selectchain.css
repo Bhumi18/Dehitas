@@ -1,0 +1,33 @@
+.select-chain-grid-parent {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.sc-grid-item {
+  width: 100%;
+  border-radius: 20px;
+}
+.sc-grid-item:hover {
+  background-color: #f3f4f6;
+  cursor: pointer;
+}
+.sc-grid-img {
+  margin: 0 auto;
+}
+button.sc-button {
+  /* border-radius: 5px; */
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f3f4f6;
+  color: #134e6f;
+  font-weight: 700;
+}
+img.sc-grid-item-img {
+  height: 80px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+img.skale {
+  padding: 5px 10px;
+}

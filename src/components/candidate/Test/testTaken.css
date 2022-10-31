@@ -1,0 +1,95 @@
+.u_messageContainer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: #edf7f7; */
+    top: 40%;
+    /* border: 1px solid black; */
+}
+
+.u_parrent
+{
+    height: calc(148px - 100vh) !important;
+    /* overflow: hidden; */
+}
+.u_message  {
+    letter-spacing: 1.3px;
+    font-size: 4rem;
+    margin: 1rem 1.5rem;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Roboto', sans-serif;  */
+    color: #262626;
+}
+#u_CompanyLogo {
+    margin: 0 auto;
+    height: 55px;
+}
+.u_congo{
+    margin:3rem auto;
+}
+
+#u_profilePic {
+    height: 50px;
+    /* width: 80px; */
+    margin: 3px 0px;
+}
+#u_landingProfile {
+    height: 42px;
+    width: 42px;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+.zoom-in-out-box {
+    /* animation: zoom-in-out-box 2s ease ease-in; */
+    /* margin: 24px; */
+    width:800px;
+    font-size: 0.4rem o !important;
+    height: 200px;
+    background: whire;
+    /* animation: zoom-in-zoom-out 2s ease-in ease-in */
+}
+
+.animated {
+    /* background-image: url(/css/images/logo.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: left top; */
+    /* padding-top:95px; */
+    margin-bottom:60px;
+    -webkit-animation-duration: 10s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    /* animation-fill-mode: both; */
+ }
+ 
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+ 
+/* @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  } */

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.C_Content
+{
+    margin-top:100px;
+    max-width: 786px;
+    
+    margin:0 auto;
+    background-color: #EFF0EE;
+}
+.C_C_Content
+{
+    margin-left:35% ;
+    max-width: 786px;
+    float:right;
+    background-color: #EFF0EE;
+}
+.Question_Feed_custome
+{
+    border-right: 2px #FF6150 solid;
+    color:#282133;
+    font-weight: 600;
+}
+.uplift
+{
+    box-shadow: 0px 0px 6px 5px rgb(233, 233, 233);
+}
+.parent-content
+{
+    background-color: #EFF0EE;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+.C_entity
+{
+    color: #000;
+    font-weight: 600;
+}
+.creator-filter-top
+{
+    height: calc(100vh - 100px) !important;
+    top: 97px;
+    position:fixed;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.values
+{
+    color:#000;
+}
+.Headingassesment
+{
+    text-align: left;
+}
+.font-primary
+{
+    font-family: "Montserrat";
+    font-size: 2rem;
+}
+.font-primary-sm
+{
+    font-family: "Montserrat";
+    font-size: 1rem;
+}
+.font-secondary
+{
+    font-family: "Open Sans" !important;
+    font-size: 1rem;
+}
+.font-secondary-sm
+{
+    font-family: "Open Sans" !important;
+    font-size: 1rem;
+}
+.heder
+{
+    width: 200px;
+    text-align:center;
+    border: 1px #fff solid;
+    color:#fff;
+    background-color: #1AC0C6;
+    align-items: center;
+    align-content: center;
+}
+.repository-selection
+{
+    background-color: #FF6150;
+    color:#fff;
+}
+.heder1
+{
+
+}
+.cont{
+    width: 200px;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.output-table
+{
+    margin: 0 auto;
+}
+.create-assessment-btn
+{
+    background-color: #FF6150;
+    color:#ffff;
+   
+}
+.final-buttom
+{
+    text-align: center;
+}
+.create-assessment-btn:hover
+{
+    background-color: #ffff ;
+    color: #FF6150;
+
+}
+.Add-btn-custom
+{
+    background-color: #282133;
+    color: #fff;
+}
+.custome_logo
+{
+    max-width:none !important;
+}
+.C_tag
+{
+    background-color:#1AC0C6;
+}
+.feed_option1
+{
+    width:300px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.question-newline
+{
+    
+}

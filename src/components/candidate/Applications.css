@@ -1,0 +1,41 @@
+.jobapplications-description-section2 {
+  margin-top: 5%;
+  text-align: justify;
+  width: 100%;
+}
+.jobapplication-qualification {
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+.jobapplication-main-button {
+  display: flex;
+  margin-left: 15em;
+  margin-top: 2%;
+}
+.jobapplication-qualification-main {
+  margin-left: 20em;
+  font-weight: 600;
+}
+.companyname-application {
+  font-weight: 600;
+}
+.myjobpost-main-content-application {
+  height: 100%;
+  width: 100%;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1024px;
+  /* padding: 50px; */
+}
+.myapplication-title {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  /* margin-top: 5%; */
+  padding-top: 150px;
+}

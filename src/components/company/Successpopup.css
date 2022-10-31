@@ -1,0 +1,42 @@
+.popup-box-successpopup {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.invite-success-popup {
+  padding-left: 30%;
+}
+.box-successpopup {
+  position: relative;
+  width: 20%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 65vh - 20px);
+  background: #134e6f;
+  border-radius: 4px;
+  padding: 20px;
+  color: white;
+  border: 1px solid #999;
+  overflow: hidden;
+}
+
+.close-icon-successpopup {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(40% - 30px);
+  top: calc(100vh - 65vh - 33px);
+  background: #282155;
+  width: 30px;
+  color: white;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}

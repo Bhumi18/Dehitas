@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --gradient-color: linear-gradient(
+    90deg,
+    #134e6f,
+    #134e6f,
+    #134e6f,
+    #134e6f,
+    #1ac0c6,
+    #1ac0c6,
+    #1ac0c6,
+    #1ac0c6,
+    #ff6150,
+    #ff6150,
+    #ff6150,
+    #ff6150
+  );
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #eff0ee; */
+}
+h1 {
+  font-family: "Montserrat";
+}
+h2 {
+  font-family: "Montserrat";
+}
+p {
+  font-family: "Open Sans" !important;
+}
+button {
+  font-family: "Montserrat";
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button.hireverse-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #134e6f;
+  /* background: var(--gradient-color); */
+  /* background-size: 600% 200%;
+  animation: gradient 3s linear infinite;
+  animation-direction: alternate; */
+  /* background: linear-gradient(270deg, #189ad3 0%, #9fd356 100%); */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+}
+button.hireverse-btn:hover {
+  color: white;
+}
+button.hireverse-btn-mobile {
+  width: 100%;
+  background: var(--gradient-color);
+  background-size: 600% 200%;
+  animation: gradient 3s linear infinite;
+  animation-direction: alternate;
+  /* background: linear-gradient(270deg, #189ad3 0%, #9fd356 100%); */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+}
+button.hireverse-btn:hover {
+  color: white;
+}
+
+svg.header-svg {
+  color: #ff6150;
+}
+button.header-orange:focus {
+  border: 2px solid #ff6150;
+}
+button.header-orange {
+  border: 2px solid white;
+}
+button.header-orange:hover {
+  border: 2px solid #ff6150;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Fonts face */
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../src/components/assets/fonts/montserrat-v25-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/montserrat-v25-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/montserrat-v25-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/montserrat-v25-latin-regular.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../src/components/assets/fonts/montserrat-v25-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/montserrat-v25-latin-500.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/montserrat-v25-latin-500.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/montserrat-v25-latin-500.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../src/components/assets/fonts/montserrat-v25-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/montserrat-v25-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/montserrat-v25-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/montserrat-v25-latin-600.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../src/components/assets/fonts/montserrat-v25-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/montserrat-v25-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/montserrat-v25-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/montserrat-v25-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/montserrat-v25-latin-700.svg#Montserrat")
+      format("svg"); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../src/components/assets/fonts/open-sans-v34-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/open-sans-v34-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/open-sans-v34-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/open-sans-v34-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/open-sans-v34-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/open-sans-v34-latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../src/components/assets/fonts/open-sans-v34-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../src/components/assets/fonts/open-sans-v34-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/components/assets/fonts/open-sans-v34-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../src/components/assets/fonts/open-sans-v34-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../src/components/assets/fonts/open-sans-v34-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../src/components/assets/fonts/open-sans-v34-latin-700.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+
+/* Communication style */
+
+.communication{
+  padding-top:100px;
+}
+
+.verify-content{
+  position: absolute;
+  display: inline-flex;
+  bottom: 100px;
+  width: 85%;
+}
